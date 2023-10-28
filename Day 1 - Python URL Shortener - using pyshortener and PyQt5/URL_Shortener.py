@@ -7,8 +7,8 @@ import pyshorteners
 class URLShortenerApp(QWidget):
     def __init__(self):
         QWidget.__init__(self)
-        self.setWindowTitle("URL Shortener App using Python")
-        self.setGeometry(100, 100, 300, 300)
+        self.setWindowTitle("URL Shortener App")
+        self.setGeometry(100, 100, 400, 400)
 
         # creating URL Entry label and Entry widget
         self.URLEntryLabel = QtWidgets.QLabel(self)
